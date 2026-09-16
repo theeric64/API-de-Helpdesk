@@ -1,0 +1,12 @@
+services:
+  api:
+    image: theeric64/sisas
+    ports:
+    - "3000:8080"
+    env_file:
+      - .env
+    # environment:
+    #   - DATABASE_URL=jdbc:h2:mem
+    #   - DATABASE_USER=Admin123!
+    #   - DATABASE_PASWORD=
+    #   - JWT_SECREt= smdksddsklsdndkl
